@@ -1,0 +1,62 @@
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    width: 500px;
+    height: 700px;
+    border: 5px solid transparent;
+    margin: 20px;
+    border-image: linear-gradient(145deg, orangered, magenta, cornflowerblue);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 30px black;
+    box-sizing: border-box;
+    /* padding: 20px; */
+}
+
+.lclock{
+    margin: 15px;
+    text-align: center;
+}
+
+.clockdate-wrapper {
+    background-color: indigo;
+    padding:25px;
+    max-width:350px;
+    width:100%;
+    text-align:center;
+    border-radius:25px;
+    margin:0 auto;
+    box-shadow: 40px 0 50px coral,
+                0 0 50px hotpink,
+                -40px 0 50px cornflowerblue    ;
+  
+}
+#clock, #clock1, #clock2{
+    background-color:indigo;
+    font-family: sans-serif;
+    font-size:60px;
+    text-shadow:0px 0px 1px ;
+    color: rgb(237, 160, 237);
+    ;
+}
+#clock span, #clock1 span, #clock2 span {
+    color:rgb(237, 164, 189);
+    text-shadow:0px 0px 1px #333;
+    font-size:50px;
+    position:relative;
+    top:-5px;
+    left:10px;
+}
+#date, #date1, #date2 {
+    letter-spacing:3px;
+    font-size:18px;
+    font-family:arial,sans-serif;
+    color:rgb(237, 164, 189);
+}
